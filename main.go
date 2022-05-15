@@ -44,7 +44,7 @@ func main() {
 	conn := DBsetup()
 
 	// connect with projects collection
-	projectCollection := conn.Database("asset_valuation").Collection("projects")
+	projectCollection := conn.Database("Database_name").Collection("collection_name")
 
 	var podcast bson.M
 	// Get first record
